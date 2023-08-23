@@ -1,0 +1,5 @@
+config SHIELD_SW_SWEEP_LEFT
+    def_bool $(shields_list_contains,SW_sweep_left)
+
+config SHIELD_SW_SWEEP_RIGHT
+    def_bool $(shields_list_contains,SW_sweep_right)
